@@ -1,1 +1,11 @@
-<p>This is SuccessAlert</p>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <label for="">Enter Name</label>
+      <input type="text" name="" value="" [(ngModel)] = "username">
+      <button type="button" name="button" class="btn btn-primary" [disabled] = "username === ''" (click) = "username = ''">Success</button>
+      <hr>
+      <p>You are successful</p>
+    </div>
+  </div>
+</div>
